@@ -20,7 +20,7 @@ const Container = styled.main`
     padding: 0 calc(3.5vh + 5px);
 
     &:after{
-        background-image: url("/images/home-background.png");
+        background-image: url("https://ijaysingh.github.io/hotstar-clone/images/home-background.png");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
