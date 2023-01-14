@@ -26,7 +26,7 @@ const Header = (props) => {
         } else if (userName) {
             auth.signOut().then(() => {
                 dispatch(setSignOutState())
-                navigate('/')
+                navigate('/hotstar-clone')
             })
             .catch((err) => alert(err.message))
         }

@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Login />} />
+          <Route exact path="/hotstar-clone" element={<Login />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
