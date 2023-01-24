@@ -19,23 +19,23 @@ const ImageSlider = () => {
         <Carousel {...settings}>
             <Wrap>
                 <a href="">
-                    <img src="https://ijaysingh.github.io/hotstar-clone/images/slider-badag.jpg" alt="" />
+                    <img src="/images/slider-badag.jpg" alt="" />
                 </a>
             </Wrap>
             <Wrap>
                 <a href="">
-                    <img src="https://ijaysingh.github.io/hotstar-clone/images/slider-scales.jpg" alt="" />
+                    <img src="/images/slider-scales.jpg" alt="" />
                 </a>
             </Wrap>
             <Wrap>
                 <a href="">
-                    <img src="https://ijaysingh.github.io/hotstar-clone/images/slider-scale.jpg" alt="" />
+                    <img src="/images/slider-scale.jpg" alt="" />
                 </a>
             </Wrap>
             
             <Wrap>
                 <a href="">
-                    <img src="https://ijaysingh.github.io/hotstar-clone/images/slider-badging.jpg" alt="" />
+                    <img src="/images/slider-badging.jpg" alt="" />
                 </a>
             </Wrap>
         </Carousel>

@@ -7,14 +7,14 @@ const Login = (props) => {
         <Container>
             <Content>
                 <CTA>
-                    <CTALogoOne src="https://ijaysingh.github.io/hotstar-clone/images/cta-logo-one.svg" alt="" />
+                    <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
                     <SignUp>GET ALL THERE</SignUp>
                     <Description>
                         Get Premier Access to Raya and the Last Dragon for an
                         additional fee with a Disney+ subscription. As of 01/11/2023,
                         the price of Disney+ and The Disney Bundlewill increase by $1.
                     </Description>
-                    <CTALogoTwo src="https://ijaysingh.github.io/hotstar-clone/images/cta-logo-two.png" alt="" />
+                    <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
                 </CTA>
                 <BgImage />
             </Content>
@@ -49,7 +49,7 @@ const BgImage = styled.div`
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://ijaysingh.github.io/hotstar-clone/images/login-background.jpg");
+    background-image: url("/images/login-background.jpg");
     position: absolute;
     top: 0;
     right: 0;

@@ -1,7 +1,6 @@
 {
   "name": "hotstar-clone",
   "version": "0.1.0",
-  "homepage": "https://ijaysingh.github.io/hotstar-clone",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",

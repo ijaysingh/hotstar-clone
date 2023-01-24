@@ -26,7 +26,7 @@ const Header = (props) => {
         } else if (userName) {
             auth.signOut().then(() => {
                 dispatch(setSignOutState())
-                navigate('/hotstar-clone')
+                navigate('/')
             })
             .catch((err) => alert(err.message))
         }
@@ -54,7 +54,7 @@ const Header = (props) => {
         return (
             <Nav>
                 <Logo>
-                    <img src="https://ijaysingh.github.io/hotstar-clone/images/logo.svg" alt="Disney+" />
+                    <img src="/images/logo.svg" alt="Disney+" />
                 </Logo>
 
                 {!userName ? (<Login onClick={handleAuth}>Login</Login>
@@ -62,27 +62,27 @@ const Header = (props) => {
                     <>
                         <Navmenu>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/home-icon.svg" alt="HOME" />
+                                <img src="/images/home-icon.svg" alt="HOME" />
                                 <span>HOME</span>
                             </a>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/search-icon.svg" alt="HOME" />
+                                <img src="/images/search-icon.svg" alt="HOME" />
                                 <span>SEARCH</span>
                             </a>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/watchlist-icon.svg" alt="HOME" />
+                                <img src="/images/watchlist-icon.svg" alt="HOME" />
                                 <span>WATCHLIST</span>
                             </a>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/original-icon.svg" alt="HOME" />
+                                <img src="/images/original-icon.svg" alt="HOME" />
                                 <span>ORIGINALS</span>
                             </a>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/movie-icon.svg" alt="HOME" />
+                                <img src="/images/movie-icon.svg" alt="HOME" />
                                 <span>MOVIES</span>
                             </a>
                             <a href="/home">
-                                <img src="https://ijaysingh.github.io/hotstar-clone/images/series-icon.svg" alt="HOME" />
+                                <img src="/images/series-icon.svg" alt="HOME" />
                                 <span>SERIES</span>
                             </a>
                         </Navmenu>
